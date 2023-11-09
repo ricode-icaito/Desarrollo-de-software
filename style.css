@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url(https://sonoradenogales.com/wp-content/uploads/2022/07/unadm.jpg);
+}
+
+body {
+  background-image: url(https://www.unionedomex.mx/wp-content/uploads/2019/03/UNADM-SEP-LICENCIATURAS-MAESTRIAS-GRATIS_0.jpg);
+  width: 960px;
+  height: 640px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  overflow: hidden;
+}
+
+header {
+  background: blueviolet;
+  width: 900px;
+  height: 60px;
+  text-align: center;
+  margin: 25px;
+  padding: 5px;
+}
+
+nav {
+  background: brown;
+  width: 960;
+  height: 20px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li, a {
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  background: darkgrey;
+  color: beige;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.seccion1 {
+  background: goldenrod;
+  width: 680px;
+  height: 180px;
+  margin: 25px;
+}
+
+.seccion2 {
+  background: goldenrod;
+  width: 680px;
+  height: 180px;
+  margin: 25px;
+}
+
+p {
+  text-align: justify;
+  padding: 20px;
+}
+
+aside {
+  background: brown;
+  width: 200px;
+  height: 380px;
+  margin-top: -405px;
+  float: right;
+  margin-right: 30px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: right;
+  width: 900px;
+  height: 30px;
+  margin: 25px;
+  clear: both;
+}
+
+footer:hover {
+  background: chartreuse;
+  color: crimson;
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    max-width: 74%;
+  }
+  .seccion1 {
+    min-width: 75%;
+  }
+  .seccion2 {
+    min-width: 75%;
+  }
+  p {
+    font-size: 18px;
+  }
+  footer {
+    max-width: 75%;
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  body {
+  background: green;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  header {
+    max-width: 38%;
+  }
+  .seccion1 {
+    max-width: 38%;
+  }
+  .seccion2 {
+    max-width: 38%;
+  }
+  p {
+    font-size: 15px;
+  }
+  footer {
+    max-width: 38%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+  body {
+  background: blue;
+  }
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  header {
+    max-width: 33%;
+  }
+  .seccion1 {
+    max-width: 34%;
+  }
+  .seccion2 {
+    max-width: 34%;
+  }
+  p {
+    font-size: 13px;
+  }
+  footer {
+    max-width: 34%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  body {
+    background: red;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  header {
+    max-width: 27%;
+  }
+  .seccion1 {
+    max-width: 28%;
+  }
+  .seccion2 h2 {
+    font-size: 20px;
+  }
+  .seccion2 {
+    max-width: 28%;
+  }
+  p {
+    font-size: 11px;
+  }
+  footer {
+    max-width: 28%;
+  }
+}
